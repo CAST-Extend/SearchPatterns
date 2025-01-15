@@ -10,7 +10,7 @@ SearchPatterns is a Python script designed to search for specific patterns in fi
 
 - **File Traversal:** Scans through all files in the specified directory.
 
-- **Customizable:** Users can specify the pattern and the directory to search.
+- **Customizable:** Users can specify the pattern and the directory to search inside the script.
 
 ### Requirements
 
@@ -41,21 +41,7 @@ pip install -r requirements.txt
 Run the script with the following command:
 
 ```bash
-python searchPatterns.py --pattern "<REGEX_PATTERN>" --directory "<DIRECTORY_PATH>"
-```
-
-### Arguments
-
-- --**pattern**: The regular expression pattern to search for.
-
-- --**directory**: The path to the directory where files will be scanned.
-
-### Example
-
-Search for email addresses in the logs directory:
-
-```bash
-python searchPatterns.py --pattern "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" --directory "./logs"
+python searchPatterns.py 
 ```
 
 ### File Structure
@@ -67,12 +53,9 @@ SearchPatterns/
 |└── searchPatterns.py  # Main script
 ```
 
-
-
 ### Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request with your changes.
-
 
 
 ### Support
